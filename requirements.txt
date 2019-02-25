@@ -1,0 +1,4 @@
+art==3.0
+pipdeptree==0.13.2
+praw==6.1.1
+setuptools==39.1.0

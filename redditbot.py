@@ -3,7 +3,6 @@ import time
 import os
 import re
 import json
-import psycopg2
 
 def bot_login():
     print("Logging in...")

@@ -11,6 +11,7 @@ def bot_login():
 
     return r
 
+
 def run_bot(r, comments_replied_to):
     print("Searching last 1,000 comments")
 
@@ -52,6 +53,5 @@ with open('subreddits.json') as f:
     data = json.load(f)
 comments_replied_to = get_saved_comments()
 print(comments_replied_to)
-
 while True:
     run_bot(r, comments_replied_to)

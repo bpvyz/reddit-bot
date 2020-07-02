@@ -33,9 +33,9 @@ def run_bot(r):
 
     print("Search Completed.")
 
-    print("Sleeping for 10 seconds...")
+    print("Sleeping for 60 seconds...")
 
-    time.sleep(10)
+    time.sleep(60)
 
 r = bot_login()
 with open('subreddits.json') as f:

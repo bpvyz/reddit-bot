@@ -23,8 +23,6 @@
       <change afterPath="$PROJECT_DIR$/../viberbot/.idea/viberbot.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Flask" beforeDir="false" afterPath="$PROJECT_DIR$/../Flask" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Insta2Sheets/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Insta2Sheets/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redditbot.py" beforeDir="false" afterPath="$PROJECT_DIR$/redditbot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +110,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550669191357</updated>
-      <workItem from="1593647712775" duration="3894000" />
+      <workItem from="1593647712775" duration="4259000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1551053887124</created>
@@ -143,22 +141,22 @@
       <screen x="-1920" y="4" width="1920" height="1080" />
     </state>
     <state x="-1581" y="385" key="#SQL_Dialects/0.0.1920.1080/-1920.4.1920.1080@-1920.4.1920.1080" timestamp="1593649928098" />
-    <state width="1877" height="294" key="GridCell.Tab.0.bottom" timestamp="1593651461090">
+    <state width="1877" height="294" key="GridCell.Tab.0.bottom" timestamp="1593651773089">
       <screen x="-1920" y="4" width="1920" height="1080" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.4.1920.1080@-1920.4.1920.1080" timestamp="1593651461090" />
-    <state width="1877" height="294" key="GridCell.Tab.0.center" timestamp="1593651461090">
+    <state width="1877" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.4.1920.1080@-1920.4.1920.1080" timestamp="1593651773089" />
+    <state width="1877" height="294" key="GridCell.Tab.0.center" timestamp="1593651773089">
       <screen x="-1920" y="4" width="1920" height="1080" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.4.1920.1080@-1920.4.1920.1080" timestamp="1593651461090" />
-    <state width="1877" height="294" key="GridCell.Tab.0.left" timestamp="1593651461090">
+    <state width="1877" height="294" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.4.1920.1080@-1920.4.1920.1080" timestamp="1593651773089" />
+    <state width="1877" height="294" key="GridCell.Tab.0.left" timestamp="1593651773089">
       <screen x="-1920" y="4" width="1920" height="1080" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.4.1920.1080@-1920.4.1920.1080" timestamp="1593651461090" />
-    <state width="1877" height="294" key="GridCell.Tab.0.right" timestamp="1593651461090">
+    <state width="1877" height="294" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.4.1920.1080@-1920.4.1920.1080" timestamp="1593651773089" />
+    <state width="1877" height="294" key="GridCell.Tab.0.right" timestamp="1593651773089">
       <screen x="-1920" y="4" width="1920" height="1080" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.4.1920.1080@-1920.4.1920.1080" timestamp="1593651461090" />
+    <state width="1877" height="294" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.4.1920.1080@-1920.4.1920.1080" timestamp="1593651773089" />
     <state x="-1151" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593649129829">
       <screen x="-1920" y="4" width="1920" height="1080" />
     </state>

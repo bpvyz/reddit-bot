@@ -40,6 +40,6 @@ def run_bot(r):
 r = bot_login()
 with open('subreddits.json') as f:
     data = json.load(f)
-for i in range(10):
-    print(f"Iteration {i} out of 10")
+for i in range(7):
+    print(f"Iteration {i+1} out of 7")
     run_bot(r)

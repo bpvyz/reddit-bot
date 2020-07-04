@@ -27,7 +27,7 @@ def run_bot(r):
             if re.search(fr'\b{word}\b', comment.body) and not comment.saved and comment.author != r.user.me() and comment.subreddit not in data['disallowed']:
                 print(f"String with {word} found in comment {comment.id}")
                 ascii = ascii_scrape(word)
-                comment.reply(f'    Everyone, dance!\n\n\n{ascii}----\n^^^I ^^^am ^^^a ^^^bot\n\n[Contact My Human](http://www.reddit.com/message/compose/?to=BokiTheCracker)')
+                comment.reply(f'    Everyone, dance!\n\n\n{ascii}\n---\n^^^I ^^^am ^^^a ^^^bot\n\n[Contact My Human](http://www.reddit.com/message/compose/?to=BokiTheCracker)')
                 print(f"Replied to comment {comment.id} with '{ascii}'")
     print("Search Completed.")
     print("Sleeping for 60 seconds...")

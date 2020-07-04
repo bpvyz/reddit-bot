@@ -6,6 +6,7 @@ import json
 import random
 from bs4 import BeautifulSoup
 import requests
+from prawcore.exceptions import Forbidden
 
 def bot_login():
     print("Logging in...")
@@ -27,8 +28,12 @@ def run_bot(r):
             if re.search(fr'\b{word}\b', comment.body) and not comment.saved and comment.author != r.user.me() and comment.subreddit not in data['disallowed']:
                 print(f"String with {word} found in comment {comment.id}")
                 ascii = ascii_scrape(word)
-                comment.reply(f'    Everyone, dance! {ascii}\n\n\n***\n^^^I ^^^am ^^^a ^^^bot\n\n[Contact My Human](http://www.reddit.com/message/compose/?to=BokiTheCracker)')
-                print(f"Replied to comment {comment.id} with ascii: '{ascii}'")
+                try:
+                    comment.reply(f'    Everyone, dance! {ascii}\n\n\n***\n^^^I ^^^am ^^^a ^^^bot\n\n[Contact My Human](http://www.reddit.com/message/compose/?to=BokiTheCracker)')
+                    print(f"Replied to comment {comment.id} with ascii: '{ascii}'")
+                except:
+                    print(f"We\'ve been banned on r/{comment.subreddit}!")
+
     print("Search Completed.")
     print("Sleeping for 60 seconds...")
     time.sleep(60)

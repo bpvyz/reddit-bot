@@ -34,7 +34,6 @@ def run_bot(r):
     time.sleep(60)
 
 def ascii_scrape(word):
-    driver = webdriver.Chrome(ChromeDriverManager().install())
     page = requests.get(f"https://www.fastemoji.com/Search/?q={word}")
     asciis = []
     content = page.text

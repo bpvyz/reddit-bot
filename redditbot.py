@@ -9,11 +9,7 @@ import requests
 
 def bot_login():
     print("Logging in...")
-    r = praw.Reddit(username=os.environ["reddit_username"],
-                    password=os.environ["reddit_password"],
-                    client_id=os.environ["client_id"],
-                    client_secret=os.environ["client_secret"],
-                    user_agent="PyEng Bot 0.1")
+    r = praw.Reddit('bot1')
     print("Logged in!")
 
     return r
@@ -27,11 +23,11 @@ def run_bot(r):
             if re.search(fr'\b{word}\b', comment.body) and not comment.saved and comment.author != r.user.me() and comment.subreddit not in data['disallowed']:
                 print(f"String with {word} found in comment {comment.id}")
                 ascii = ascii_scrape(word)
-                comment.reply(f'    Everyone, dance!\n\n\n{ascii}\n---\n^^^I ^^^am ^^^a ^^^bot\n\n[Contact My Human](http://www.reddit.com/message/compose/?to=BokiTheCracker)')
-                print(f"Replied to comment {comment.id} with '{ascii}'")
+                comment.reply(f'    Everyone, dance!\n\n\n{ascii}\n***\n^^^I ^^^am ^^^a ^^^bot\n\n[Contact My Human](http://www.reddit.com/message/compose/?to=BokiTheCracker)')
+                print(f"Replied to comment {comment.id} with ascii: '{ascii}'")
     print("Search Completed.")
     print("Sleeping for 60 seconds...")
-    time.sleep(60)
+    time.sleep(5)
 
 def ascii_scrape(word):
     page = requests.get(f"https://www.fastemoji.com/Search/?q={word}")

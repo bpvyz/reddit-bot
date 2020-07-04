@@ -5,8 +5,7 @@ import re
 import json
 import random
 from bs4 import BeautifulSoup
-from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
+import requests
 
 def bot_login():
     print("Logging in...")
@@ -36,9 +35,9 @@ def run_bot(r):
 
 def ascii_scrape(word):
     driver = webdriver.Chrome(ChromeDriverManager().install())
+    page = requests.get(f"https://www.fastemoji.com/Search/?q={word}")
     asciis = []
-    driver.get(f"https://www.fastemoji.com/Search/?q={word}")
-    content = driver.page_source
+    content = page.text
     soup = BeautifulSoup(content, "html.parser")
     for a in soup.findAll('div', attrs={'class':'box'}):
         ascii_list = a.findAll('span', attrs={'style': 'font-size: 1.5em;'})

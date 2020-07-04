@@ -25,7 +25,6 @@
       <change beforePath="$PROJECT_DIR$/../Insta2Sheets/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Insta2Sheets/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/redditbot.py" beforeDir="false" afterPath="$PROJECT_DIR$/redditbot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +137,7 @@
       <updated>1550669191357</updated>
       <workItem from="1593647712775" duration="4948000" />
       <workItem from="1593807647013" duration="1990000" />
-      <workItem from="1593890242560" duration="5581000" />
+      <workItem from="1593890242560" duration="6654000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1551053887124</created>
@@ -189,6 +188,10 @@
     </state>
     <state width="1877" height="294" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.4.1920.1080@-1920.4.1920.1080" timestamp="1593654473104" />
     <state width="1877" height="294" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.4.1920.1080@0.0.1920.1080" timestamp="1593896097157" />
+    <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1593898232443">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1080/-1920.4.1920.1080@0.0.1920.1080" timestamp="1593898232443" />
     <state x="-1151" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593890769520">
       <screen x="-1920" y="4" width="1920" height="1080" />
     </state>

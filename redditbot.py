@@ -9,7 +9,11 @@ import requests
 
 def bot_login():
     print("Logging in...")
-    r = praw.Reddit('bot1')
+    r = praw.Reddit(username=os.environ["reddit_username"],
+                    password=os.environ["reddit_password"],
+                    client_id=os.environ["client_id"],
+                    client_secret=os.environ["client_secret"],
+                    user_agent="PyEng Bot 0.1")
     print("Logged in!")
 
     return r
@@ -27,7 +31,7 @@ def run_bot(r):
                 print(f"Replied to comment {comment.id} with ascii: '{ascii}'")
     print("Search Completed.")
     print("Sleeping for 60 seconds...")
-    time.sleep(5)
+    time.sleep(60)
 
 def ascii_scrape(word):
     page = requests.get(f"https://www.fastemoji.com/Search/?q={word}")

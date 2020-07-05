@@ -7,6 +7,7 @@ import random
 from bs4 import BeautifulSoup
 import requests
 from prawcore.exceptions import Forbidden
+import banned
 
 def bot_login():
     print("Logging in...")
@@ -19,24 +20,26 @@ def bot_login():
 
     return r
 
-
 def run_bot(r):
-    print("Searching last 1,000 comments")
-    wordlist= ['dance', 'dancing', 'dances', 'danced', 'disco', 'boogie', 'bop', 'tango', 'twerk']
-    for comment in r.subreddit('all').comments(limit=1000):
-        for word in wordlist:
-            if re.search(fr'\b{word}\b', comment.body) and not comment.saved and comment.author != r.user.me() and comment.subreddit not in data['disallowed']:
-                print(f"String with {word} found in comment {comment.id}")
-                ascii = ascii_scrape(word)
-                try:
-                    comment.reply(f'    Everyone, dance! {ascii}\n\n\n***\n^^^I ^^^am ^^^a ^^^bot\n\n[Contact My Human](http://www.reddit.com/message/compose/?to=BokiTheCracker)')
-                    print(f"Replied to comment {comment.id} with ascii: '{ascii}'")
-                except:
-                    print(f"We\'ve been banned on r/{comment.subreddit}!")
+    for i in range(7):
+        print(f"Iteration {i + 1} out of 7")
+        print("Searching last 1,000 comments")
+        wordlist= ['dance', 'dancing', 'dances', 'danced', 'disco', 'boogie', 'bop', 'tango', 'twerk']
+        for comment in r.subreddit('all').comments(limit=1000):
+            for word in wordlist:
+                if re.search(fr'\b{word}\b', comment.body) and not comment.saved and comment.author != r.user.me() and comment.subreddit not in data['disallowed']:
+                    print(f"String with {word} found in comment {comment.id}")
+                    ascii = ascii_scrape(word)
+                    try:
+                        comment.reply(f'    Everyone, dance! {ascii}\n\n\n***\n^^^I ^^^am ^^^a ^^^bot\n\n[Contact My Human](http://www.reddit.com/message/compose/?to=BokiTheCracker)')
+                        print(f"Replied to comment {comment.id} with ascii: '{ascii}'")
+                    except:
+                        print(f"We\'ve been banned on r/{comment.subreddit}!")
 
-    print("Search Completed.")
-    print("Sleeping for 60 seconds...")
-    time.sleep(60)
+        print("Search Completed.")
+        print("Sleeping for 60 seconds...")
+        time.sleep(60)
+    banned.update_banned(r)
 
 def ascii_scrape(word):
     page = requests.get(f"https://www.fastemoji.com/Search/?q={word}")
@@ -53,6 +56,4 @@ def ascii_scrape(word):
 r = bot_login()
 with open('subreddits.json') as f:
     data = json.load(f)
-for i in range(7):
-    print(f"Iteration {i+1} out of 7")
-    run_bot(r)
+run_bot(r)

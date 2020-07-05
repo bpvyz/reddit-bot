@@ -39,7 +39,7 @@ def run_bot(r):
         print("Search Completed.")
         print("Sleeping for 60 seconds...")
         time.sleep(60)
-    banned.update_banned(r)
+    # banned.update_banned(r)
 
 def ascii_scrape(word):
     page = requests.get(f"https://www.fastemoji.com/Search/?q={word}")

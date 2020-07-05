@@ -23,8 +23,7 @@
       <change afterPath="$PROJECT_DIR$/../viberbot/.idea/viberbot.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Flask" beforeDir="false" afterPath="$PROJECT_DIR$/../Flask" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Insta2Sheets/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Insta2Sheets/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banned.py" beforeDir="false" afterPath="$PROJECT_DIR$/banned.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redditbot.py" beforeDir="false" afterPath="$PROJECT_DIR$/redditbot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +160,7 @@
       <workItem from="1593647712775" duration="4948000" />
       <workItem from="1593807647013" duration="1990000" />
       <workItem from="1593890242560" duration="11061000" />
-      <workItem from="1593962224346" duration="5946000" />
+      <workItem from="1593962224346" duration="6583000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1551053887124</created>

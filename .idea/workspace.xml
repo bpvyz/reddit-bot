@@ -24,8 +24,7 @@
       <change beforePath="$PROJECT_DIR$/../Flask" beforeDir="false" afterPath="$PROJECT_DIR$/../Flask" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Insta2Sheets/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Insta2Sheets/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redditbot.py" beforeDir="false" afterPath="$PROJECT_DIR$/redditbot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subreddits.json" beforeDir="false" afterPath="$PROJECT_DIR$/subreddits.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banned.py" beforeDir="false" afterPath="$PROJECT_DIR$/banned.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +161,7 @@
       <workItem from="1593647712775" duration="4948000" />
       <workItem from="1593807647013" duration="1990000" />
       <workItem from="1593890242560" duration="11061000" />
-      <workItem from="1593962224346" duration="4583000" />
+      <workItem from="1593962224346" duration="5946000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1551053887124</created>
@@ -193,25 +192,25 @@
       <screen x="-1920" y="4" width="1920" height="1080" />
     </state>
     <state x="-1581" y="385" key="#SQL_Dialects/0.0.1920.1080/-1920.4.1920.1080@-1920.4.1920.1080" timestamp="1593649928098" />
-    <state width="1877" height="313" key="GridCell.Tab.0.bottom" timestamp="1593965927377">
+    <state width="1877" height="313" key="GridCell.Tab.0.bottom" timestamp="1593966859461">
       <screen x="-1920" y="4" width="1920" height="1080" />
     </state>
-    <state width="1877" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.4.1920.1080@-1920.4.1920.1080" timestamp="1593965927377" />
+    <state width="1877" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.4.1920.1080@-1920.4.1920.1080" timestamp="1593966859461" />
     <state width="1877" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.4.1920.1080@0.0.1920.1080" timestamp="1593899822777" />
-    <state width="1877" height="313" key="GridCell.Tab.0.center" timestamp="1593965927377">
+    <state width="1877" height="313" key="GridCell.Tab.0.center" timestamp="1593966859460">
       <screen x="-1920" y="4" width="1920" height="1080" />
     </state>
-    <state width="1877" height="313" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.4.1920.1080@-1920.4.1920.1080" timestamp="1593965927377" />
+    <state width="1877" height="313" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.4.1920.1080@-1920.4.1920.1080" timestamp="1593966859460" />
     <state width="1877" height="294" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.4.1920.1080@0.0.1920.1080" timestamp="1593899822777" />
-    <state width="1877" height="313" key="GridCell.Tab.0.left" timestamp="1593965927377">
+    <state width="1877" height="313" key="GridCell.Tab.0.left" timestamp="1593966859460">
       <screen x="-1920" y="4" width="1920" height="1080" />
     </state>
-    <state width="1877" height="313" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.4.1920.1080@-1920.4.1920.1080" timestamp="1593965927377" />
+    <state width="1877" height="313" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.4.1920.1080@-1920.4.1920.1080" timestamp="1593966859460" />
     <state width="1877" height="294" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.4.1920.1080@0.0.1920.1080" timestamp="1593899822777" />
-    <state width="1877" height="313" key="GridCell.Tab.0.right" timestamp="1593965927377">
+    <state width="1877" height="313" key="GridCell.Tab.0.right" timestamp="1593966859460">
       <screen x="-1920" y="4" width="1920" height="1080" />
     </state>
-    <state width="1877" height="313" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.4.1920.1080@-1920.4.1920.1080" timestamp="1593965927377" />
+    <state width="1877" height="313" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.4.1920.1080@-1920.4.1920.1080" timestamp="1593966859460" />
     <state width="1877" height="294" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.4.1920.1080@0.0.1920.1080" timestamp="1593899822777" />
     <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1593898232443">
       <screen x="0" y="0" width="1920" height="1080" />

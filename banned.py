@@ -1,6 +1,12 @@
 import praw
 import json
 
+def bot_login():
+    print("Logging in...")
+    r = praw.Reddit('bot1')
+    print("Logged in!")
+    return(r)
+
 def update_banned(r):
     inbox = r.inbox.messages(limit=None)
 
@@ -17,3 +23,5 @@ def json_dump(subreddit):
             data['disallowed'].append(subreddit)
     with open('subreddits.json', 'w') as f:
         json.dump(data, f, sort_keys=True, indent=4)
+
+update_banned(bot_login())

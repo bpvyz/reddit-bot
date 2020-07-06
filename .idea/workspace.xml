@@ -23,7 +23,7 @@
       <change afterPath="$PROJECT_DIR$/../viberbot/.idea/viberbot.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Flask" beforeDir="false" afterPath="$PROJECT_DIR$/../Flask" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Insta2Sheets/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Insta2Sheets/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redditbot.py" beforeDir="false" afterPath="$PROJECT_DIR$/redditbot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,6 +163,7 @@
       <workItem from="1593962224346" duration="7770000" />
       <workItem from="1593993616663" duration="24000" />
       <workItem from="1593994269351" duration="1693000" />
+      <workItem from="1593998796182" duration="342000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1551053887124</created>

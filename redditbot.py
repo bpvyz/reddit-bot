@@ -7,7 +7,7 @@ import random
 from bs4 import BeautifulSoup
 import requests
 from prawcore.exceptions import Forbidden
-import banned
+# import banned
 
 def bot_login():
     print("Logging in...")

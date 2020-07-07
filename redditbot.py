@@ -21,10 +21,10 @@ def bot_login():
     return r
 
 def run_bot(r):
+    wordlist = ['dance', 'dancing', 'dances', 'danced', 'disco', 'boogie', 'bop', 'tango', 'twerk']
     for i in range(7):
         print(f"Iteration {i + 1} out of 7")
         print("Searching last 1,000 comments")
-        wordlist= ['dance', 'dancing', 'dances', 'danced', 'disco', 'boogie', 'bop', 'tango', 'twerk']
         for comment in r.subreddit('all').comments(limit=1000):
             for word in wordlist:
                 if re.search(fr'\b{word}\b', comment.body) and not comment.saved and comment.author != r.user.me() and comment.subreddit not in data['disallowed']:

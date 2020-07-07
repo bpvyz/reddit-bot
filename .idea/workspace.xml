@@ -12,6 +12,7 @@
       <change afterPath="$PROJECT_DIR$/../onelinerrps/.idea/onelinerrps.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pillow/.idea/pillow.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../plotcorona/.idea/plotcorona.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../scrapy/.idea/scrapy.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sqlalchemy/.idea/sqlalchemy.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../twitterbot/.idea/twitterbot.iml" afterDir="false" />
@@ -23,7 +24,7 @@
       <change afterPath="$PROJECT_DIR$/../viberbot/.idea/viberbot.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Flask" beforeDir="false" afterPath="$PROJECT_DIR$/../Flask" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Insta2Sheets/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Insta2Sheets/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +165,7 @@
       <workItem from="1593993616663" duration="24000" />
       <workItem from="1593994269351" duration="1693000" />
       <workItem from="1593998796182" duration="1010000" />
-      <workItem from="1594114014690" duration="1423000" />
+      <workItem from="1594114014690" duration="1842000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1551053887124</created>

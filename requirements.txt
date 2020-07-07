@@ -1,4 +1,5 @@
 art==3.0
+<<<<<<< HEAD
 beautifulsoup4==4.9.1
 certifi==2018.11.29
 chardet==3.0.4
@@ -19,3 +20,8 @@ update-checker==0.16
 urllib3==1.24.1
 webdriver-manager==3.2.1
 websocket-client==0.54.0
+=======
+pipdeptree==0.13.2
+praw==6.1.1
+setuptools==39.1.0
+>>>>>>> 3b5f0b45d3dc19a10fb6bc0f80e931b7c323c55c

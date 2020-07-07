@@ -12,10 +12,10 @@ from prawcore.exceptions import Forbidden
 def bot_login():
     print("Logging in...")
     r = praw.Reddit(username=os.environ["reddit_username"],
-                    password=os.environ["reddit_password"],
-                    client_id=os.environ["client_id"],
-                    client_secret=os.environ["client_secret"],
-                    user_agent="PyEng Bot 0.1")
+                     password=os.environ["reddit_password"],
+                     client_id=os.environ["client_id"],
+                     client_secret=os.environ["client_secret"],
+                     user_agent="PyEng Bot 0.1")
     print("Logged in!")
 
     return r
@@ -25,7 +25,8 @@ def run_bot(r):
     for i in range(7):
         print(f"Iteration {i + 1} out of 7")
         print("Searching last 1,000 comments")
-        for comment in r.subreddit('all').comments(limit=1000):
+        for comment in r.subreddit("all").comments(limit=1000):
+            print(comment.body)
             for word in wordlist:
                 if re.search(fr'\b{word}\b', comment.body) and not comment.saved and comment.author != r.user.me() and comment.subreddit not in data['disallowed']:
                     print(f"String with {word} found in comment {comment.id}")

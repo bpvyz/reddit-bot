@@ -12,7 +12,6 @@
       <change afterPath="$PROJECT_DIR$/../onelinerrps/.idea/onelinerrps.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pillow/.idea/pillow.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../plotcorona/.idea/plotcorona.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../scrapy/.idea/scrapy.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sqlalchemy/.idea/sqlalchemy.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../twitterbot/.idea/twitterbot.iml" afterDir="false" />
@@ -24,7 +23,10 @@
       <change afterPath="$PROJECT_DIR$/../viberbot/.idea/viberbot.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Flask" beforeDir="false" afterPath="$PROJECT_DIR$/../Flask" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Insta2Sheets/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Insta2Sheets/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banned.py" beforeDir="false" afterPath="$PROJECT_DIR$/banned.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redditbot.py" beforeDir="false" afterPath="$PROJECT_DIR$/redditbot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subreddits.json" beforeDir="false" afterPath="$PROJECT_DIR$/subreddits.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +167,9 @@
       <workItem from="1593993616663" duration="24000" />
       <workItem from="1593994269351" duration="1693000" />
       <workItem from="1593998796182" duration="1010000" />
-      <workItem from="1594114014690" duration="1842000" />
+      <workItem from="1594114014690" duration="2843000" />
+      <workItem from="1594131812165" duration="17000" />
+      <workItem from="1594155357291" duration="2116000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1551053887124</created>
@@ -200,26 +204,26 @@
       <screen x="-1920" y="4" width="1920" height="1080" />
     </state>
     <state x="-1280" y="279" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1080/-1920.4.1920.1080@-1920.4.1920.1080" timestamp="1593993349236" />
-    <state width="1877" height="456" key="GridCell.Tab.0.bottom" timestamp="1594114762235">
+    <state width="1877" height="373" key="GridCell.Tab.0.bottom" timestamp="1594157381903">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.4.1920.1080@-1920.4.1920.1080" timestamp="1593998762261" />
-    <state width="1877" height="456" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.4.1920.1080@0.0.1920.1080" timestamp="1594114762235" />
-    <state width="1877" height="456" key="GridCell.Tab.0.center" timestamp="1594114762235">
+    <state width="1877" height="373" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.4.1920.1080@0.0.1920.1080" timestamp="1594157381903" />
+    <state width="1877" height="373" key="GridCell.Tab.0.center" timestamp="1594157381903">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="313" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.4.1920.1080@-1920.4.1920.1080" timestamp="1593998762261" />
-    <state width="1877" height="456" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.4.1920.1080@0.0.1920.1080" timestamp="1594114762235" />
-    <state width="1877" height="456" key="GridCell.Tab.0.left" timestamp="1594114762234">
+    <state width="1877" height="373" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.4.1920.1080@0.0.1920.1080" timestamp="1594157381903" />
+    <state width="1877" height="373" key="GridCell.Tab.0.left" timestamp="1594157381903">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="313" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.4.1920.1080@-1920.4.1920.1080" timestamp="1593998762261" />
-    <state width="1877" height="456" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.4.1920.1080@0.0.1920.1080" timestamp="1594114762234" />
-    <state width="1877" height="456" key="GridCell.Tab.0.right" timestamp="1594114762235">
+    <state width="1877" height="373" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.4.1920.1080@0.0.1920.1080" timestamp="1594157381903" />
+    <state width="1877" height="373" key="GridCell.Tab.0.right" timestamp="1594157381903">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="313" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.4.1920.1080@-1920.4.1920.1080" timestamp="1593998762261" />
-    <state width="1877" height="456" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.4.1920.1080@0.0.1920.1080" timestamp="1594114762235" />
+    <state width="1877" height="373" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.4.1920.1080@0.0.1920.1080" timestamp="1594157381903" />
     <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1593898232443">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -241,8 +245,8 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/redditbot$banned.coverage" NAME="banned Coverage Results" MODIFIED="1594114305036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/redditbot$banned.coverage" NAME="banned Coverage Results" MODIFIED="1594155705197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/redditbot$get_ascii.coverage" NAME="get_ascii Coverage Results" MODIFIED="1593895817175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/redditbot$redditbot.coverage" NAME="redditbot Coverage Results" MODIFIED="1594114762225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/redditbot$redditbot.coverage" NAME="redditbot Coverage Results" MODIFIED="1594157381896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
